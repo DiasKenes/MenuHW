@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cіzge unadyma"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <RadioButton
+            android:id="@+id/rad_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jaqsı"/>
+        <RadioButton
+            android:id="@+id/rad_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Öte jaqsı"/>
+        <RadioButton
+            android:id="@+id/rad_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Naşar"/>
+        <RadioButton
+            android:id="@+id/rad_fourth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Öte naşar"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android sabağınan sağan neler unadı"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+    <CheckBox
+        android:id="@+id/check_first"
+        style="@style/checkboxes"
+        android:text="Dïzayn özgertw">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/check_second"
+        style="@style/checkboxes"
+        android:text="Kod jazw">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/check_third"
+        style="@style/checkboxes"
+        android:text="Ağaydıñ vïdeoları">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/check_fourth"
+        style="@style/checkboxes"
+        android:text="Ağaydıñ vïdeoları">
+    </CheckBox>
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OTPRAVIT"
+        android:layout_gravity="center"
+        android:background="@color/black"/>
+</LinearLayout>
